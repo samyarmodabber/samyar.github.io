@@ -1,0 +1,31 @@
+{
+  "name": "samyar.github.io",
+  "version": "1.0.0",
+  "description": "CV Website of Samyar Modabber",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samyarmodabber/samyar.github.io.git"
+  },
+  "keywords": [
+    "CV"
+  ],
+  "author": "Samyar Modabber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samyarmodabber/samyar.github.io/issues"
+  },
+  "homepage": "https://github.com/samyarmodabber/samyar.github.io#readme",
+  "dependencies": {
+    "config": "^3.1.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.19.0"
+  }
+}
