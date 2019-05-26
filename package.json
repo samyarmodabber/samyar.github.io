@@ -1,33 +1,31 @@
 {
-  "name": "samyar.github.io",
-  "version": "1.0.0",
-  "description": "CV Website of Samyar Modabber",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server",
-    "server": "nodemon server",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/samyarmodabber/samyar.github.io.git"
-  },
-  "keywords": [
-    "CV"
-  ],
-  "author": "Samyar Modabber",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/samyarmodabber/samyar.github.io/issues"
-  },
-  "homepage": "https://github.com/samyarmodabber/samyar.github.io#readme",
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "config": "^3.1.0",
-    "express": "^4.16.4"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
   },
-  "devDependencies": {
-    "concurrently": "^4.1.0",
-    "nodemon": "^1.19.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
